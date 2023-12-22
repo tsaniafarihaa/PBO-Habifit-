@@ -10,9 +10,11 @@ package taskk.management.system;
  */
 public abstract class Task {
     protected String name;
+    protected String desc;
 
-    public Task(String name) {
+    public Task(String name, String desc) {
         this.name = name;
+        this.desc = desc;
     }
 
     public String getName() {

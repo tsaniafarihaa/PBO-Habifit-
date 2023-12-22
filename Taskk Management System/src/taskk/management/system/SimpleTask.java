@@ -13,8 +13,8 @@ public class SimpleTask extends Task implements Check{
     private String priority;
     private boolean isChecked;
 
-    public SimpleTask(String name, String dueDate, String priority) {
-        super(name);
+    public SimpleTask(String name,String desc, String dueDate, String priority) {
+        super(name,desc);
         this.dueDate = dueDate;
         this.priority = priority;
         this.isChecked = false;

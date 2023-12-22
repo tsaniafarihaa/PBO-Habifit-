@@ -11,8 +11,8 @@ package taskk.management.system;
 public class Goal extends Task {
     private boolean isChecked;
 
-    public Goal(String name) {
-        super(name);
+    public Goal(String name, String desc) {
+        super(name,desc);
         this.isChecked = false;
     }
 
