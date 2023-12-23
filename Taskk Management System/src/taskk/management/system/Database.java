@@ -24,6 +24,9 @@ public class Database {
             JOptionPane.showMessageDialog(null, ""+e.getMessage(), "Connection Error", JOptionPane.WARNING_MESSAGE);
         }
     }
+    public Connection getConnection() {
+        return conn;
+    }
     
     public ResultSet getData(String SQLString){
         try{
